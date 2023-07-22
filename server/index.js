@@ -20,7 +20,7 @@ app.use('/api/v1/chat', chatRoutes);
 app.get('/', async(req, res)=>{
     // res.send("Hello from DALL-E");
     res.status(200).json({
-        message :"Hello from chatbot ",
+        message :"Hello from Ai-chatbot ",
     });
 });
 
