@@ -92,7 +92,7 @@ const FiverrGigTitleGenerator = ({ isDarkMode }) => {
       </>)}
         <div className="text-gray-800">
           {isHighTraffic ? (
-            <HighTrafficMessage isHighTraffic={isHighTraffic} />
+            <HighTrafficMessage isHighTraffic={isHighTraffic} isDarkMode={isDarkMode}/>
           ) : (
             <></>
           )}
