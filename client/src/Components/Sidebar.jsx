@@ -47,7 +47,6 @@ const Sidebar = ({ isSidebarOpen, onSidebarItemClick }) => {
               </svg>
 
               {/* <span className="ml-3">Dashboard</span>  // changes done by vaibhav on 16/07/2023 */}
-              {/* <span className="ml-3">Templates</span> */}
               <span className="ml-3">Dashboard</span>
             </Link>
           </li>
