@@ -50,7 +50,7 @@ const MetaDescriptionGenerator = ({isDarkMode}) => {
         try {
           setIsHighTraffic(true);
           setGeneratingchat(true); 
-          const response = await fetch('http://localhost:8080/api/v1/chat', {
+          const response = await fetch('https://chat-completion.onrender.com/api/v1/chat', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
